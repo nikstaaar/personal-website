@@ -2,48 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
-    padding-left: 2%;
-}
-
-.header{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.header section{
-    display:flex;
-    justify-content: space-around;
-
+    font-family: 'Montserrat', sans-serif;   
 }
 
 .name-title{
-    font-size: 500%;
-    position: relative;
-    top: 1%;
-    left: 25%;
+    font-size: 400%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 
 }
 
-.contact-form{
-    background-color: lavender;
-    padding: 2%;
-    border-radius: 20px ;
-}
 
-.text-area{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
-    font-style: oblique;
-}
-
-.paragraph{
-    font-weight: 200;
-    padding-left: 2%;
-
-}
 .ppic{
     width: 280px;
     height: auto;
@@ -57,27 +27,24 @@
 }
 
 .nvbutton {
+
   cursor: pointer;
   background: lightblue;
   outline: none;
   transition: 1s ease-in-out;
-  padding: 10px 10px;
-  border-radius: 15px;
+  padding: 2% ;
 }
 
 
 .nvbutton:hover {
   transition: 1s ease-in-out;
-  background: #4F95DA;
+  background: #4ab0ac;
 }
 
 .nvbutton:hover svg {
   stroke-dashoffset: -480;
 }
 
-.buttons-section{
-    display:flex;
-}
 
 .inputs-section{
     display:flex;
@@ -89,3 +56,24 @@
     justify-content: space-evenly;
    
 }
+
+.main-header{
+    background-color: #4F95DA;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.other-header{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-1{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+}
+
