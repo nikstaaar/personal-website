@@ -1,0 +1,45 @@
+.body{
+    font-family: 'Montserrat', sans-serif;   
+    background-color: antiquewhite;
+    
+}
+
+.main-text {
+    height: 40em;
+    padding-left: 5%;
+    padding-right: 3%;
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    gap:3%;
+    margin-bottom: 5em;
+    row-gap: 20px;
+}
+
+.p1{
+    font-size: 1.8vw ;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: brown;
+}
+
+.p2{
+    font-size: 1.8vw ;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    
+    background-color: brown;
+}
+
+.p3{
+    font-size: 2.5vw; ;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    background-color: brown;
+}

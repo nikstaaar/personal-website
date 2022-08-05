@@ -1,0 +1,29 @@
+@import "/css/nav.css";
+
+.main-header{
+    background-color: rgb(233, 83, 133);
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.name-title{
+    font-size: 10vw;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.ppic{
+    width:100%;
+    height: auto;
+}
+
+
+
+.sub-header{
+    display: flex;
+    justify-content: center;
+}
